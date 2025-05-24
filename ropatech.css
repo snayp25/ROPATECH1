@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.div__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.div__header-text {
+  font-size: 24px;
+  padding-right: 50px;
+}
+
+.div__header-h {
+  padding-right: 100px;
+  width: 200px;
+}
+
+.div__header-p {
+  padding-top: 15px;
+  padding-right: 100px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li a,
+li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  height: 3px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  display: block;
+}
+
+
+
+.main {
+  height: 1500px;
+}
+
+.div__main-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.div__main-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div__main-1_1 {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  padding-right: 50px;
+}
+
+.div__main-1_2 {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+}
+
+.div__main-1_phone,
+.div__main-1_tablet {
+  height: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.div__main-1_phone {
+  margin-right: 50px;
+}
+
+.div__main-1_tablet-img,
+.div__main-1_phone-img {
+  padding-top: 100px;
+}
+
+.div__main-1_phone-img {
+  padding-bottom: 50px;
+}
+
+.div__main-1_laptop,
+.div__main-1_watch {
+  width: 400px;
+  height: 330px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.div__main-1_watch {
+  margin-top: 50px;
+}
+
+.div__main-1_laptop-img {
+  width: 80%;
+}
+
+.div__main-1_p1,
+.div__main-1-laptops_p1,
+.div__main-1-shoes_p1,
+.div__main-1-bag_p1,
+.div__main-1-cap_p1,
+.div__main-1-clothes_p1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.div__main-1_p2,
+.div__main-1-laptops_p2,
+.div__main-1-watch_p2,
+.div__main-1-shoes_p2,
+.div__main-1-bag_p2,
+.div__main-1-cap_p2,
+.div__main-1-clothes_p2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.div__main-1-2_p1 {
+  padding-left: 220px;
+  margin: 0;
+  font-size: 10px;
+}
+
+.div__main-1-2_p2 {
+  padding-left: 210px;
+  margin: 0;
+}
+
+/* .main-2 Section */
+
+.div__main-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  height: auto;
+}
+
+.div__main-2_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div__main-2_2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.div__main-2_1-cap,
+.div__main-2_1-bag {
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.div__main-2_1-cap {
+  height: 310px;
+}
+
+.div__main-2_1-bag {
+  height: 350px;
+}
+
+.div__main-2_2-shoes,
+.div__main-2_2-clothes {
+  height: 710px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.div__main-2_2-shoes {
+  width: 350px;
+  margin-left: 50px;
+}
+
+.div__main-2_2-clothes {
+  width: 310px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.div__main-2_2-img {
+  height: 47%;
+  width: 90%;
+  padding-left: 15px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.div__footer-1 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 0 50px;
+}
+
+.div__footer-2 {
+  width: 200px;
+}
+
+.div__footer-3 {
+  padding-right: 50px;
+}
+
+
+@media (min-width: 1200px){
+    .div__header{
+        margin: auto;
+    }
+    .nav-list {
+        list-style: none;         
+        display: flex;            
+        flex-direction: row;      
+        gap: 2vw;                 
+        padding: 0;               
+        margin: 0;                
+        align-items: center;      
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .nav-list {
+        list-style: none;         
+        display: flex;            
+        flex-direction: row;      
+        gap: 2vw;                 
+        padding: 0;               
+        margin: 0;                
+        align-items: center;      
+    }
+    .header{
+        margin: auto;
+        padding: 0;
+        width: 770px;
+    }
+    .main{
+        margin: auto;
+        height: auto;
+    }
+    .div__main-header{
+        width: 750px;
+        margin: auto;
+    }
+    .div__main{
+        margin: auto;
+        width: 770px;
+        height: auto;
+    }
+    .div__main-1{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .div__main-1_1{
+        flex-direction: row;
+        padding: 0;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .div__main-1_watch{
+        margin: 0;
+        width: 320px;
+        height: 280px;
+    }
+    .div__main-1_laptop{
+        width: 320px;
+        margin-right: 50px;
+        height: 280px;
+    }
+    .div__main-1_watch-img{
+        height: 193px;
+    }
+    .div__main-1_2{
+        height: auto;
+    }
+    .div__main-1_phone, .div__main-1_tablet{
+        width: 320px;
+        height: 650px;
+    }
+    .div__main-2{
+        width: 750px;
+        margin: auto;
+        margin-top: 50px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .div__main-2_1{
+        margin: auto;
+        margin-bottom: 50px;
+        flex-direction: row;
+    }
+    .div__main-2_1-bag{
+        width: 320px;
+        height: 300px;
+        margin: 0;
+    }
+    .div__main-2_1-bag-img{
+        height: 216px;
+    }
+    .div__main-2_1-cap{
+        width: 320px;
+        margin: 0;
+        height: 300px;
+        margin-right: 50px;
+    }
+    .div__main-2_2-clothes, .div__main-2_2-shoes{
+        width: 320px;
+        height: 750px;
+    }
+    .div__main-2_2-shoes-img{
+        width: 320px;
+    }
+    .div__main-1-shoes_p1{
+        padding-top: 64px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #272727;
+        width: 200px;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        padding: 20px;
+        border-left: 1px solid white;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+    .header{
+        margin: auto;
+        padding: 0;
+        width: 320px;
+    }
+    .div__header-img, .div__header-img2{
+        padding: 0;
+    }
+    .main{
+        margin: auto;
+        height: auto;
+    }
+    .div__main-header{
+        width: 300px;
+        margin: auto;
+    }
+    .div__main{
+        margin: auto;
+        width: 320px;
+        height: auto;
+    }
+    .div__main-1_1{
+        padding: 0;
+    }
+    .div__main-1, .div__main-1_2{
+        margin: auto;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .div__main-2, .div__main-2_2{
+        margin: auto;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .div__main-2{
+        margin-top: 50px;
+    }
+    .footer{
+        margin: auto;
+        height: auto;
+        width: 320px;
+        flex-wrap: wrap;
+    }
+    .div__footer-3{
+        padding-right: 0;
+        width: 200px;
+    }
+    .div__main-1_laptop, .div__main-1_watch{
+        width: 320px;
+        margin: auto;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .div__main-1_phone, .div__main-1_tablet{
+        width: 320px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .div__main-2_1-cap, .div__main-2_1-bag{
+        width: 320px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .div__main-2_2-clothes, .div__main-2_2-shoes{
+        width: 320px;
+        margin: auto;
+        margin-top: 50px;
+        height: 750px;
+    }
+    .div__main-2_2-shoes-img{
+        width: 320px;
+    }
+}

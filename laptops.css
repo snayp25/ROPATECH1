@@ -1,0 +1,27 @@
+.div__header{
+    display: flex;
+}
+
+.div__header-h{
+    padding-right: 500px;
+    padding-left: 100px;
+}
+
+.div__header-p{
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+.div__header-img{
+    width: 20px;
+    height: 20px;
+    padding-left: 300px ;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.div__header-img2{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+}
