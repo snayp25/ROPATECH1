@@ -10,16 +10,14 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
   padding: 20px;
 }
 
 .div__header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  max-width: 1200px;
 }
 
 .div__header-text {
