@@ -4,32 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RopaTech</title>
-    <link rel="stylesheet" href="ropatech.css">
+    <link rel="stylesheet" href="card.css">
     <link rel="icon" type="image/png" href="images/icon.png">
 </head>
 <body>
     <div class="cards__items">
+        
         <form>
             <div class="personal__data">
-                <input type="text" name="fio" id="fio" placeholder="ФИО">
-                <input type="email" name="email" id="email" placeholder="Введите емаил">
-                <input type="text" name="adress" id="adress" placeholder="Введите адрес">
-                <input type="date" name="date" id="date" placeholder="Введите год рождения">
+                <input type="text" name="fio" id="fio" placeholder="ФИО" required>
+                <input type="email" name="email" id="email" placeholder="Введите емаил" required>
+                <input type="text" name="adress" id="adress" placeholder="Введите адрес" required>
+                <input type="date" name="date" id="date" placeholder="Введите год рождения" required>
             </div>
             
-            <div class="delivery">
-                <input type="radio" name="delivery" id="delivery1">
-                <label for="delivery1">Курьер</label>
-                <input type="radio" name="delivery" id="delivery2">
-                <label for="delivery2">Самовывоз</label>
-                <div class="commet">
-                    <h3>Дополнительный комментарий</h3>
-                    <textarea name="comment" id="comment" rows="5"></textarea>
+            <div class="form__2">
+                <div class="delivery">
+                    <h3 class="h3">Выберите способ доставки</h3>
+                    <input  type="radio" name="delivery" id="delivery1" required>
+                    <label for="delivery1">Курьер</label>
+                    <input type="radio" name="delivery" id="delivery2" required>
+                    <label for="delivery2">Самовывоз</label>
+                    <div class="commet">
+                        <h3 class="comment__h3">Дополнительный комментарий</h3>
+                        <textarea name="comment" id="comment" rows="5"></textarea>
+                    </div>
+                </div>
+    
+                <div class="personal__pay">
+                    <h2>Оплата</h2>
+                    <label for="number">Номер карты</label>
+                    <input type="text" id="number" placeholder="Введите номер карты" required>
+                    <label for="month">Месяц</label>
+                    <p class="error"></p>
+                    <input type="number"  id="month" required> 
+                    <span>/</span>                    
+                    <input type="number"  id="year" required>
+                    <label for="cvv">CVC/CVV</label>
+                    <input style="width: 50px;" type="text" id="cvv" required>
+                    <label for="name">Имя владельца</label>
+                    <input type="text" id="name" required> 
+                    <button>Оплатить</button>
                 </div>
             </div>
-            
-            div.
         </form>
     </div>
+<script src="https://unpkg.com/imask"></script>
+<script src="script.js"></script>
 </body>
 </html>

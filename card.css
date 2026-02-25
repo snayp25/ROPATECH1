@@ -1,0 +1,58 @@
+body{
+    background-color: #3D5A82;
+}
+
+.cards__items{
+    display: flex;
+    justify-content: center;
+}
+
+.personal__data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 50px;
+    width: 480px;
+    gap: 20px;
+}
+
+.personal__data input{
+    width: 220px;
+    border-radius: 10px;
+}
+
+.form__2{
+    display: flex;
+
+}
+
+.delivery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+}
+
+.h3{
+    font-size: 30px;
+}
+
+.comment__h3{
+    font-size: 30px;
+}
+
+.delivery label{
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.personal__pay{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.personal__pay input{
+    display: flex;
+    border-radius: 15px;
+    width: 150px;
+}
